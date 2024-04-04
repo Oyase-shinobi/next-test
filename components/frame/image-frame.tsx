@@ -7,9 +7,9 @@ interface Layer {
   height: number,
 }
 
-const MOBILE_FRAME_SIZE = 320;
-const SM_FRAME_SIZE = 600;
-const LG_FRAME_SIZE = 900;
+const MOBILE_FRAME_SIZE = 180;
+const SM_FRAME_SIZE = 300;
+const LG_FRAME_SIZE = 600;
 const MINIMUN_IMG_WIDTH = 80;
 const MINIMUN_IMG_HEIGHT = 80;
 
@@ -81,7 +81,13 @@ export default function () {
   return (
     <div 
       ref={parentRef}
-      className="relative w-80 h-80 m-auto bg-slate-50 sm:w-[600px] sm:h-[600px] lg:w-[900px] lg:h-[900px]"
+      style={{ 
+        width: `${frame.width}px`, 
+        height: `${frame.height}px`, 
+        margin: 'auto', 
+        background: 'slategray', 
+        position: 'relative' 
+      }}
     >
       <Draggable 
         nodeRef={nodeRef} 
