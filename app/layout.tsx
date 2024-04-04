@@ -3,6 +3,8 @@ import { Inter as FontSans } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 
 import { cn } from "@/lib/utils"
+import Header from "@/components/layout/header"
+import Footer from "@/components/layout/footer"
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -29,7 +31,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
+          <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
