@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 export default function () {
   const { setTheme } = useTheme()
   return (
-    <div className="p-5 shadow-lg dark:bg-sky-600 dark:shadow-lg">
+    <div className="p-5 shadow-lg dark:bg-sky-600">
       <div className="text-right">
         <Button variant="outline" size="icon">
           <SunIcon 

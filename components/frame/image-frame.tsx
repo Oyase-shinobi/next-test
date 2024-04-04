@@ -95,7 +95,7 @@ export default function () {
       >
       <div ref={nodeRef}>
           <img
-            src={`/wolf.jpg`}
+            src={`/mountain.jpg`}
             alt="Draggable Image"
             width={image.width}
             height={image.height}
