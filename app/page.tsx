@@ -8,11 +8,23 @@ import ImageFrame from "@/components/frame/image-frame"
 export default function Home() {
   return (
     <div>
-      <ScrollArea>
+      <ScrollArea className="h-[800px]">
         <ImageFrame />
-        <figcaption className="m-auto max-w-[400px] flex flex-col justify-center">
-          <span className="my-5 max-w-80 m-auto">Peaceful Morning in the Mountain Valley</span>
-          <span className="max-w-[400px] m-auto">A stunning landscape photograph capturing the serene beauty of a mountain valley at sunrise. The early morning light bathes the scene in a warm, golden glow, highlighting the rugged textures of the mountains in the background. A thin mist hovers above the valley floor, adding a touch of mystery and depth to the composition. In the foreground, a tranquil river meanders through the valley, reflecting the first light of day. The overall effect is one of peace and tranquility, inviting the viewer to pause and appreciate the natural beauty of the moment.</span>
+        <figcaption className="m-auto max-w-[1400px] px-4 flex flex-col justify-center">
+          <span className="my-5 max-w-[600px] m-auto text-xl">「成功への道：IT界における勝利の旅」</span>
+          <span className="max-w-[1400px] m-auto">ある日、私のIT会社は新しいプロジェクトを成功させました。私は喜びに胸を躍らせ、社内の皆にその喜びを伝えるために、以下のような話をしました。
+
+            皆さん、お集まりいただきありがとうございます。今日は私たちのIT会社が新しいプロジェクトで素晴らしい成果を上げたことを報告したいと思います。
+            長い時間と努力をかけて、私たちのチームは協力し、困難を乗り越えてきました。その結果、新しいプロジェクトは大成功を収めました。
+            私たちのプロジェクトは、革新的な技術を駆使し、市場での需要に応えることができました。
+            お客様からのフィードバックも素晴らしく、喜びと感謝の言葉がたくさん寄せられています。
+            この成功は、私たちのチームの協力と努力の賜物です。一人ひとりが自分の役割を果たし、共に目標に向かって努力しました。
+            この成功によって、私たちの会社の評判と信頼性がさらに向上しました。新たなビジネスチャンスが広がることでしょう。
+            今後も、お客様のニーズに合わせた革新的なソリューションを提供するために、より一層の努力を重ねていきたいと思います。
+            お客様やパートナー企業との関係をさらに強化し、長期的なパートナーシップを築いていきたいと考えています。
+            この成功を讃えるために、チーム全員に感謝の意を込めた特別な報奨や表彰を用意いたします。
+            最後に、私たちの会社の未来について、皆さんと共により一層の発展と成長を達成できることを心から楽しみにしています。
+            このように、私は喜びと感謝の気持ちを皆さんと共有しました。私たちの会社の新しいプロジェクトの成功を祝いつつ、更なる挑戦と成長に向けて皆で力を合わせていきましょう。</span>
         </figcaption>
       </ScrollArea>
     </div>

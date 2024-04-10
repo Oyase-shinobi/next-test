@@ -10,8 +10,8 @@ interface Layer {
 const MOBILE_FRAME_SIZE = 180;
 const SM_FRAME_SIZE = 300;
 const LG_FRAME_SIZE = 600;
-const MINIMUN_IMG_WIDTH = 80;
-const MINIMUN_IMG_HEIGHT = 80;
+const MINIMUN_IMG_WIDTH = 100;
+const MINIMUN_IMG_HEIGHT = 100;
 
 export default function () {
 
@@ -85,7 +85,7 @@ export default function () {
         width: `${frame.width}px`, 
         height: `${frame.height}px`, 
         margin: 'auto', 
-        background: 'slategray', 
+        background: "white", 
         position: 'relative' 
       }}
     >
@@ -95,7 +95,7 @@ export default function () {
       >
       <div ref={nodeRef}>
           <img
-            src={`/mountain.jpg`}
+            src={`/img/success.jpg`}
             alt="Draggable Image"
             width={image.width}
             height={image.height}
